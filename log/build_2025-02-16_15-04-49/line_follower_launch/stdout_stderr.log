@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing line_follower_launch.egg-info/PKG-INFO
+writing dependency_links to line_follower_launch.egg-info/dependency_links.txt
+writing requirements to line_follower_launch.egg-info/requires.txt
+writing top-level names to line_follower_launch.egg-info/top_level.txt
+reading manifest file 'line_follower_launch.egg-info/SOURCES.txt'
+writing manifest file 'line_follower_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages/line-follower-launch.egg-link (link to .)
+
+Installed /home/soham/line_follower_ws/build/line_follower_launch
+running symlink_data
+symbolically linking /home/soham/line_follower_ws/build/line_follower_launch/resource/line_follower_launch -> /home/soham/line_follower_ws/install/line_follower_launch/share/ament_index/resource_index/packages
+symbolically linking /home/soham/line_follower_ws/build/line_follower_launch/package.xml -> /home/soham/line_follower_ws/install/line_follower_launch/share/line_follower_launch
+symbolically linking /home/soham/line_follower_ws/build/line_follower_launch/launch/spawn_robot_in_gazebo.launch.py -> /home/soham/line_follower_ws/install/line_follower_launch/share/line_follower_launch/launch

@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: line_follower_launch
+Version: 0.0.1
+Summary: Launch files for line follower robot in Gazebo
+Maintainer: soham
+Maintainer-email: soham@todo.todo
+License: Apache License 2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

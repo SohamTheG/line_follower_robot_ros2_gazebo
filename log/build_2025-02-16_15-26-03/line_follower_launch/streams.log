@@ -1,0 +1,18 @@
+[0.547s] Invoking command in '/home/soham/line_follower_ws/build/line_follower_launch': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/line_follower_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/soham/line_follower_ws/build/line_follower_launch/build --no-deps symlink_data --force
+[0.764s] running develop
+[0.908s] running egg_info
+[0.919s] writing line_follower_launch.egg-info/PKG-INFO
+[0.919s] writing dependency_links to line_follower_launch.egg-info/dependency_links.txt
+[0.919s] writing requirements to line_follower_launch.egg-info/requires.txt
+[0.919s] writing top-level names to line_follower_launch.egg-info/top_level.txt
+[0.942s] reading manifest file 'line_follower_launch.egg-info/SOURCES.txt'
+[0.942s] writing manifest file 'line_follower_launch.egg-info/SOURCES.txt'
+[0.988s] running build_ext
+[0.988s] Creating /home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages/line-follower-launch.egg-link (link to .)
+[0.989s] 
+[0.989s] Installed /home/soham/line_follower_ws/build/line_follower_launch
+[0.989s] running symlink_data
+[0.989s] symbolically linking /home/soham/line_follower_ws/build/line_follower_launch/resource/line_follower_launch -> /home/soham/line_follower_ws/install/line_follower_launch/share/ament_index/resource_index/packages
+[0.989s] symbolically linking /home/soham/line_follower_ws/build/line_follower_launch/package.xml -> /home/soham/line_follower_ws/install/line_follower_launch/share/line_follower_launch
+[0.989s] symbolically linking /home/soham/line_follower_ws/build/line_follower_launch/launch/spawn_robot_in_gazebo.launch.py -> /home/soham/line_follower_ws/install/line_follower_launch/share/line_follower_launch/launch
+[1.014s] Invoked command in '/home/soham/line_follower_ws/build/line_follower_launch' returned '0': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/line_follower_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/soham/line_follower_ws/build/line_follower_launch/build --no-deps symlink_data --force
