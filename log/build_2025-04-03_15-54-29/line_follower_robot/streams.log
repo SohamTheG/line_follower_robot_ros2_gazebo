@@ -1,0 +1,36 @@
+[0.018s] Invoking command in '/home/soham/line_follower_ws/build/line_follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soham/cognipilot/cranium/install/nxp_cup_vision:/home/soham/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/cmake --build /home/soham/line_follower_ws/build/line_follower_robot -- -j12 -l12
+[0.440s] Invoked command in '/home/soham/line_follower_ws/build/line_follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soham/cognipilot/cranium/install/nxp_cup_vision:/home/soham/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/cmake --build /home/soham/line_follower_ws/build/line_follower_robot -- -j12 -l12
+[0.447s] Invoking command in '/home/soham/line_follower_ws/build/line_follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soham/cognipilot/cranium/install/nxp_cup_vision:/home/soham/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/cmake --install /home/soham/line_follower_ws/build/line_follower_robot
+[0.452s] -- Install configuration: "Release"
+[0.452s] -- Execute custom install script
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/launch/spawn_robot_in_gazebo.launch.py
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/ir_sensor_test.sdf
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/my_robot/model.config
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/my_robot/robot.sdf
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/my_robot/robot.urdf
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/my_robot/robot.urdf.xacro
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/robot.sdf
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/robot.urdf
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/robot.urdf.xacro
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/tinker/meshes/obj.mtl
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/tinker/meshes/tinker.obj
+[0.453s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/tinker/model.config
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/urdf/tinker/model.sdf
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/worlds/line_follower.sdf
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/worlds/line_follower.world
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/ament_index/resource_index/package_run_dependencies/line_follower_robot
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/ament_index/resource_index/parent_prefix_path/line_follower_robot
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.sh
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/environment/ament_prefix_path.dsv
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/environment/path.sh
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/environment/path.dsv
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/local_setup.bash
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/local_setup.sh
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/local_setup.zsh
+[0.454s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/local_setup.dsv
+[0.455s] -- Symlinking: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/package.dsv
+[0.461s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/ament_index/resource_index/packages/line_follower_robot
+[0.461s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig.cmake
+[0.461s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/cmake/line_follower_robotConfig-version.cmake
+[0.461s] -- Up-to-date symlink: /home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/package.xml
+[0.463s] Invoked command in '/home/soham/line_follower_ws/build/line_follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soham/cognipilot/cranium/install/nxp_cup_vision:/home/soham/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/cmake --install /home/soham/line_follower_ws/build/line_follower_robot

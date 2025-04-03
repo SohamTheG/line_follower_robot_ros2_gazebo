@@ -5,7 +5,7 @@ from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.callbacks import EvalCallback
 from rl_pid_tuner.rl_env import LineFollowerEnv
 import os
-
+import torch
 def main(args=None):
     # Initialize ROS if not already initialized
     if not rclpy.ok():
@@ -31,6 +31,9 @@ def main(args=None):
         deterministic=True,
         render=False
     )
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
     
     # Initialize PPO model with better hyperparameters for this task
     model = PPO(
@@ -42,7 +45,8 @@ def main(args=None):
         batch_size=64,
         n_epochs=10,
         gamma=0.99,
-        tensorboard_log=log_dir
+        tensorboard_log=log_dir,
+        device=device
     )
     
     # Train the model
