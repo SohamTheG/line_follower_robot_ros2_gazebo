@@ -1,0 +1,6 @@
+source;share/ir_sensor_subscriber/hook/pythonpath.ps1
+source;share/ir_sensor_subscriber/hook/pythonpath.dsv
+source;share/ir_sensor_subscriber/hook/pythonpath.sh
+source;share/ir_sensor_subscriber/hook/ament_prefix_path.ps1
+source;share/ir_sensor_subscriber/hook/ament_prefix_path.dsv
+source;share/ir_sensor_subscriber/hook/ament_prefix_path.sh

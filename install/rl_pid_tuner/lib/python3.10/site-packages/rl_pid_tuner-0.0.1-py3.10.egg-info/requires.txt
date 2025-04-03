@@ -1,0 +1,10 @@
+setuptools
+gym
+stable-baselines3
+rclpy
+numpy
+torch
+matplotlib
+
+[test]
+pytest

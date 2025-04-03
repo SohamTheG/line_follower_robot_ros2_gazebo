@@ -1,0 +1,12 @@
+running egg_info
+writing manifest file '../../build/rl_pid_tuner/rl_pid_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/rl_pid_tuner/rl_pid_tuner.egg-info to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/soham/line_follower_ws/build/rl_pid_tuner/install.log'

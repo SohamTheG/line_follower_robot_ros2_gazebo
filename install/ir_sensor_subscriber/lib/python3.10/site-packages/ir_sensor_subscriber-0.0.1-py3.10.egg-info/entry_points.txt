@@ -1,0 +1,3 @@
+[console_scripts]
+ir_sensor_subscriber = ir_sensor_subscriber.ir_sensor_subscriber:main
+

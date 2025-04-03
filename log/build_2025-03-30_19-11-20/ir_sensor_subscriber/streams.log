@@ -1,0 +1,25 @@
+[0.682s] Invoking command in '/home/soham/line_follower_ws/src/ir_sensor_subscriber': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/ir_sensor_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_sensor_subscriber build --build-base /home/soham/line_follower_ws/build/ir_sensor_subscriber/build install --record /home/soham/line_follower_ws/build/ir_sensor_subscriber/install.log --single-version-externally-managed install_data
+[0.845s] running egg_info
+[0.855s] writing ../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/dependency_links.txt
+[0.856s] writing entry points to ../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/entry_points.txt
+[0.856s] writing requirements to ../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/requires.txt
+[0.856s] writing top-level names to ../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/top_level.txt
+[0.877s] reading manifest file '../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/SOURCES.txt'
+[0.878s] writing manifest file '../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/SOURCES.txt'
+[0.878s] running build
+[0.878s] running build_py
+[0.878s] copying ir_sensor_subscriber/__init__.py -> /home/soham/line_follower_ws/build/ir_sensor_subscriber/build/lib/ir_sensor_subscriber
+[0.878s] copying ir_sensor_subscriber/ir_sensor_subscriber.py -> /home/soham/line_follower_ws/build/ir_sensor_subscriber/build/lib/ir_sensor_subscriber
+[0.879s] running install
+[0.882s] running install_lib
+[0.893s] running install_data
+[0.893s] copying resource/ir_sensor_subscriber -> /home/soham/line_follower_ws/install/ir_sensor_subscriber/share/ament_index/resource_index/packages
+[0.893s] copying package.xml -> /home/soham/line_follower_ws/install/ir_sensor_subscriber/share/ir_sensor_subscriber
+[0.893s] running install_egg_info
+[0.904s] removing '/home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages/ir_sensor_subscriber-0.0.1-py3.10.egg-info' (and everything under it)
+[0.904s] Copying ../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info to /home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages/ir_sensor_subscriber-0.0.1-py3.10.egg-info
+[0.905s] running install_scripts
+[0.992s] Installing ir_sensor_subscriber script to /home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/ir_sensor_subscriber
+[0.992s] writing list of installed files to '/home/soham/line_follower_ws/build/ir_sensor_subscriber/install.log'
+[1.016s] Invoked command in '/home/soham/line_follower_ws/src/ir_sensor_subscriber' returned '0': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/ir_sensor_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_sensor_subscriber build --build-base /home/soham/line_follower_ws/build/ir_sensor_subscriber/build install --record /home/soham/line_follower_ws/build/ir_sensor_subscriber/install.log --single-version-externally-managed install_data

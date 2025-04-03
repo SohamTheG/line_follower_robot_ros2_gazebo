@@ -1,0 +1,12 @@
+ros2 run xacro xacro /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/robot.urdf.xacro > /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/robot.urdf
+gz sdf -p /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/robot.urdf > /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/robot.sdf
+gz sdf -p /home/soham/line_follower_ws/src/line_follower_robot/worlds/line_follower.world > /home/soham/line_follower_ws/src/line_follower_robot/worlds/line_follower.sdf
+
+colcon build
+source /opt/ros/humble/setup.bash
+source install/setup.sh
+
+
+ros2 launch line_follower_robot spawn_robot_in_gazebo.launch.py
+
+source /home/soham/rl_env/bin/activate

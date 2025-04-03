@@ -1,0 +1,613 @@
+/home/soham/line_follower_ws
+├── build
+│   ├── COLCON_IGNORE
+│   ├── line_follower_launch
+│   │   ├── build
+│   │   │   └── lib
+│   │   │       └── line_follower_launch
+│   │   │           └── __init__.py
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_setup_py.sh
+│   │   ├── colcon_command_prefix_setup_py.sh.env
+│   │   ├── install.log
+│   │   ├── launch
+│   │   │   └── spawn_robot_in_gazebo.launch.py -> /home/soham/line_follower_ws/src/line_follower_launch/launch/spawn_robot_in_gazebo.launch.py
+│   │   ├── line_follower_launch -> /home/soham/line_follower_ws/src/line_follower_launch/line_follower_launch
+│   │   ├── line_follower_launch.egg-info
+│   │   │   ├── dependency_links.txt
+│   │   │   ├── PKG-INFO
+│   │   │   ├── requires.txt
+│   │   │   ├── SOURCES.txt
+│   │   │   ├── top_level.txt
+│   │   │   └── zip-safe
+│   │   ├── package.xml -> /home/soham/line_follower_ws/src/line_follower_launch/package.xml
+│   │   ├── prefix_override
+│   │   │   ├── __pycache__
+│   │   │   │   └── sitecustomize.cpython-310.pyc
+│   │   │   └── sitecustomize.py
+│   │   ├── resource
+│   │   │   └── line_follower_launch -> /home/soham/line_follower_ws/src/line_follower_launch/resource/line_follower_launch
+│   │   ├── setup.cfg -> /home/soham/line_follower_ws/src/line_follower_launch/setup.cfg
+│   │   └── share
+│   │       └── line_follower_launch
+│   │           └── hook
+│   │               ├── pythonpath_develop.dsv
+│   │               ├── pythonpath_develop.ps1
+│   │               └── pythonpath_develop.sh
+│   └── line_follower_robot
+│       ├── ament_cmake_core
+│       │   ├── line_follower_robotConfig.cmake
+│       │   ├── line_follower_robotConfig-version.cmake
+│       │   ├── package.cmake
+│       │   └── stamps
+│       │       ├── ament_prefix_path.sh.stamp
+│       │       ├── nameConfig.cmake.in.stamp
+│       │       ├── nameConfig-version.cmake.in.stamp
+│       │       ├── package_xml_2_cmake.py.stamp
+│       │       ├── package.xml.stamp
+│       │       ├── path.sh.stamp
+│       │       └── templates_2_cmake.py.stamp
+│       ├── ament_cmake_environment_hooks
+│       │   ├── ament_prefix_path.dsv
+│       │   ├── local_setup.bash
+│       │   ├── local_setup.dsv
+│       │   ├── local_setup.sh
+│       │   ├── local_setup.zsh
+│       │   ├── package.dsv
+│       │   └── path.dsv
+│       ├── ament_cmake_index
+│       │   └── share
+│       │       └── ament_index
+│       │           └── resource_index
+│       │               ├── package_run_dependencies
+│       │               │   └── line_follower_robot
+│       │               ├── packages
+│       │               │   └── line_follower_robot
+│       │               └── parent_prefix_path
+│       │                   └── line_follower_robot
+│       ├── ament_cmake_package_templates
+│       │   └── templates.cmake
+│       ├── ament_cmake_symlink_install
+│       │   ├── ament_cmake_symlink_install.cmake
+│       │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│       ├── ament_cmake_uninstall_target
+│       │   └── ament_cmake_uninstall_target.cmake
+│       ├── ament_flake8
+│       ├── ament_lint_cmake
+│       ├── ament_pep257
+│       ├── ament_xmllint
+│       ├── cmake_args.last
+│       ├── CMakeCache.txt
+│       ├── CMakeFiles
+│       │   ├── 3.22.1
+│       │   │   ├── CMakeCCompiler.cmake
+│       │   │   ├── CMakeCXXCompiler.cmake
+│       │   │   ├── CMakeDetermineCompilerABI_C.bin
+│       │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│       │   │   ├── CMakeSystem.cmake
+│       │   │   ├── CompilerIdC
+│       │   │   │   ├── a.out
+│       │   │   │   ├── CMakeCCompilerId.c
+│       │   │   │   └── tmp
+│       │   │   └── CompilerIdCXX
+│       │   │       ├── a.out
+│       │   │       ├── CMakeCXXCompilerId.cpp
+│       │   │       └── tmp
+│       │   ├── cmake.check_cache
+│       │   ├── CMakeDirectoryInformation.cmake
+│       │   ├── CMakeOutput.log
+│       │   ├── CMakeRuleHashes.txt
+│       │   ├── CMakeTmp
+│       │   ├── line_follower_robot_uninstall.dir
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── DependInfo.cmake
+│       │   │   └── progress.make
+│       │   ├── Makefile2
+│       │   ├── Makefile.cmake
+│       │   ├── progress.marks
+│       │   ├── TargetDirectories.txt
+│       │   └── uninstall.dir
+│       │       ├── build.make
+│       │       ├── cmake_clean.cmake
+│       │       ├── compiler_depend.make
+│       │       ├── compiler_depend.ts
+│       │       ├── DependInfo.cmake
+│       │       └── progress.make
+│       ├── cmake_install.cmake
+│       ├── colcon_build.rc
+│       ├── colcon_command_prefix_build.sh
+│       ├── colcon_command_prefix_build.sh.env
+│       ├── CTestConfiguration.ini
+│       ├── CTestCustom.cmake
+│       ├── CTestTestfile.cmake
+│       ├── install_manifest.txt
+│       ├── Makefile
+│       └── symlink_install_manifest.txt
+├── install
+│   ├── COLCON_IGNORE
+│   ├── line_follower_launch
+│   │   ├── lib
+│   │   │   └── python3.10
+│   │   │       └── site-packages
+│   │   │           ├── line_follower_launch
+│   │   │           │   ├── __init__.py
+│   │   │           │   └── __pycache__
+│   │   │           │       └── __init__.cpython-310.pyc
+│   │   │           └── line_follower_launch-0.0.1-py3.10.egg-info
+│   │   │               ├── dependency_links.txt
+│   │   │               ├── PKG-INFO
+│   │   │               ├── requires.txt
+│   │   │               ├── SOURCES.txt
+│   │   │               ├── top_level.txt
+│   │   │               └── zip-safe
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       └── packages
+│   │       │           └── line_follower_launch
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── line_follower_launch
+│   │       └── line_follower_launch
+│   │           ├── hook
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.ps1
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── pythonpath.dsv
+│   │           │   ├── pythonpath.ps1
+│   │           │   └── pythonpath.sh
+│   │           ├── launch
+│   │           │   ├── __pycache__
+│   │           │   │   └── spawn_robot_in_gazebo.launch.cpython-310.pyc
+│   │           │   └── spawn_robot_in_gazebo.launch.py
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml
+│   │           └── package.zsh
+│   ├── line_follower_robot
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── line_follower_robot -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/line_follower_robot
+│   │       │       ├── packages
+│   │       │       │   └── line_follower_robot -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_index/share/ament_index/resource_index/packages/line_follower_robot
+│   │       │       └── parent_prefix_path
+│   │       │           └── line_follower_robot -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/line_follower_robot
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── line_follower_robot
+│   │       └── line_follower_robot
+│   │           ├── cmake
+│   │           │   ├── line_follower_robotConfig.cmake -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_core/line_follower_robotConfig.cmake
+│   │           │   └── line_follower_robotConfig-version.cmake -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_core/line_follower_robotConfig-version.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── launch
+│   │           │   ├── __pycache__
+│   │           │   │   └── spawn_robot_in_gazebo.launch.cpython-310.pyc
+│   │           │   └── spawn_robot_in_gazebo.launch.py -> /home/soham/line_follower_ws/src/line_follower_robot/launch/spawn_robot_in_gazebo.launch.py
+│   │           ├── local_setup.bash -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /home/soham/line_follower_ws/build/line_follower_robot/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /home/soham/line_follower_ws/src/line_follower_robot/package.xml
+│   │           ├── package.zsh
+│   │           ├── urdf
+│   │           │   ├── my_robot
+│   │           │   │   ├── model.config -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/model.config
+│   │           │   │   ├── robot.sdf -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/robot.sdf
+│   │           │   │   ├── robot.urdf -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/robot.urdf
+│   │           │   │   └── robot.urdf.xacro -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/my_robot/robot.urdf.xacro
+│   │           │   ├── robot.sdf -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/robot.sdf
+│   │           │   ├── robot.urdf -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/robot.urdf
+│   │           │   ├── robot.urdf.xacro -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/robot.urdf.xacro
+│   │           │   └── tinker
+│   │           │       ├── meshes
+│   │           │       │   ├── obj.mtl -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/tinker/meshes/obj.mtl
+│   │           │       │   └── tinker.obj -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/tinker/meshes/tinker.obj
+│   │           │       ├── model.config -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/tinker/model.config
+│   │           │       └── model.sdf -> /home/soham/line_follower_ws/src/line_follower_robot/urdf/tinker/model.sdf
+│   │           └── worlds
+│   │               ├── line_follower.sdf -> /home/soham/line_follower_ws/src/line_follower_robot/worlds/line_follower.sdf
+│   │               └── line_follower.world -> /home/soham/line_follower_ws/src/line_follower_robot/worlds/line_follower.world
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── local_setup.zsh
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   └── setup.zsh
+├── log
+│   ├── build_2025-02-16_15-00-55
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-16_15-04-49
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-16_15-12-13
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-16_15-26-03
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-16_16-09-49
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-16_17-54-36
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-16_18-47-59
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-16_19-00-53
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-02-21_09-35-46
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-19_20-05-08
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_17-28-49
+│   │   ├── events.log
+│   │   ├── line_follower_launch
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-08-35
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-24-39
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-29-01
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-33-31
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-36-32
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-41-56
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-51-00
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-54-48
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-56-59
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_18-58-45
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_19-03-59
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_19-13-28
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_19-26-06
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_19-28-28
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_19-29-32
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_19-36-22
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-20_19-43-43
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-21_19-55-42
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-21_20-12-15
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-21_20-16-31
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-21_20-19-32
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-21_20-25-20
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-21_20-31-24
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-21_20-43-16
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-22_14-26-39
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── build_2025-03-22_14-28-33
+│   │   ├── events.log
+│   │   ├── line_follower_robot
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── logger_all.log
+│   ├── COLCON_IGNORE
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2025-03-22_14-28-33
+├── myass.txt
+├── README.md
+├── requirements.txt
+└── src
+    └── line_follower_robot
+        ├── CMakeLists.txt
+        ├── config
+        ├── include
+        │   └── line_follower_robot
+        ├── launch
+        │   └── spawn_robot_in_gazebo.launch.py
+        ├── LICENSE
+        ├── line_follower.sdf
+        ├── package.xml
+        ├── rviz
+        ├── src
+        ├── urdf
+        │   ├── ir_sensor_test.sdf
+        │   ├── my_robot
+        │   │   ├── model.config
+        │   │   ├── robot.sdf
+        │   │   ├── robot.urdf
+        │   │   └── robot.urdf.xacro
+        │   ├── robot.sdf
+        │   ├── robot.urdf
+        │   ├── robot.urdf.xacro
+        │   └── tinker
+        │       ├── meshes
+        │       │   ├── obj.mtl
+        │       │   └── tinker.obj
+        │       ├── model.config
+        │       └── model.sdf
+        └── worlds
+            ├── line_follower.sdf
+            └── line_follower.world
+
+168 directories, 442 files

@@ -1,0 +1,6 @@
+source;share/rl_pid_tuner/hook/pythonpath.ps1
+source;share/rl_pid_tuner/hook/pythonpath.dsv
+source;share/rl_pid_tuner/hook/pythonpath.sh
+source;share/rl_pid_tuner/hook/ament_prefix_path.ps1
+source;share/rl_pid_tuner/hook/ament_prefix_path.dsv
+source;share/rl_pid_tuner/hook/ament_prefix_path.sh

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="tinker">
+    <static>true</static>  <!-- Set to false if it should move -->
+    
+    <link name="tinker_link">
+      <visual name="tinker_visual">
+        <geometry>
+          <mesh>
+            <uri>model://tinker/meshes/tinker.obj</uri>
+            <scale>0.25 0.25 0.25</scale>  <!-- Adjust scale if needed -->
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tinker/meshes/obj.mtl</uri>
+            <name>tinker_material</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name="tinker_collision">
+        <geometry>
+          <mesh>
+            <uri>model://tinker/meshes/tinker.obj</uri>
+            <scale>0.25 0.25 0.25</scale>
+          </mesh>
+        </geometry>
+          <laser_retro>200</laser_retro>
+          <surface>
+        <contact>
+          <collide_without_contact>true</collide_without_contact>
+          <collide_without_contact_bitmask>0x01</collide_without_contact_bitmask>
+        </contact>
+      </surface>  <!-- Reflection intensity -->
+      </collision>
+    </link>
+  </model>
+</sdf>

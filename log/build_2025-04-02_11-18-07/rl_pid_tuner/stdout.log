@@ -1,0 +1,17 @@
+running egg_info
+writing manifest file '../../build/rl_pid_tuner/rl_pid_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rl_pid_tuner/rl_env.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+copying rl_pid_tuner/test_ppo.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+running install
+running install_lib
+byte-compiling /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner/rl_env.py to rl_env.cpython-310.pyc
+byte-compiling /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner/test_ppo.py to test_ppo.cpython-310.pyc
+running install_data
+copying package.xml -> /home/soham/line_follower_ws/install/rl_pid_tuner/share/rl_pid_tuner
+running install_egg_info
+removing '/home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/rl_pid_tuner/rl_pid_tuner.egg-info to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/soham/line_follower_ws/build/rl_pid_tuner/install.log'

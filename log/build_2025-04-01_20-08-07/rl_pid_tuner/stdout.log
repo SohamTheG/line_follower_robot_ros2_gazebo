@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/PKG-INFO
+writing dependency_links to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/dependency_links.txt
+writing entry points to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/entry_points.txt
+writing requirements to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/requires.txt
+writing top-level names to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/top_level.txt
+reading manifest file '../../build/rl_pid_tuner/rl_pid_tuner.egg-info/SOURCES.txt'
+writing manifest file '../../build/rl_pid_tuner/rl_pid_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rl_pid_tuner/rl_env.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+copying rl_pid_tuner/__init__.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+copying rl_pid_tuner/train_ppo.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+copying rl_pid_tuner/test_ppo.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+running install
+running install_lib
+copying /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner/rl_env.py -> /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner
+byte-compiling /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner/rl_env.py to rl_env.cpython-310.pyc
+running install_data
+copying resource/rl_pid_tuner -> /home/soham/line_follower_ws/install/rl_pid_tuner/share/ament_index/resource_index/packages
+copying package.xml -> /home/soham/line_follower_ws/install/rl_pid_tuner/share/rl_pid_tuner
+running install_egg_info
+removing '/home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/rl_pid_tuner/rl_pid_tuner.egg-info to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info
+running install_scripts
+Installing test_ppo script to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/rl_pid_tuner
+Installing train_ppo script to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/rl_pid_tuner
+writing list of installed files to '/home/soham/line_follower_ws/build/rl_pid_tuner/install.log'

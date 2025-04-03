@@ -1,0 +1,23 @@
+[1.113s] Invoking command in '/home/soham/line_follower_ws/src/line_follower_launch': PYTHONPATH=/home/soham/line_follower_ws/build/line_follower_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower_launch build --build-base /home/soham/line_follower_ws/build/line_follower_launch/build install --record /home/soham/line_follower_ws/build/line_follower_launch/install.log --single-version-externally-managed install_data
+[1.431s] running egg_info
+[1.450s] writing ../../build/line_follower_launch/line_follower_launch.egg-info/PKG-INFO
+[1.458s] writing dependency_links to ../../build/line_follower_launch/line_follower_launch.egg-info/dependency_links.txt
+[1.459s] writing requirements to ../../build/line_follower_launch/line_follower_launch.egg-info/requires.txt
+[1.459s] writing top-level names to ../../build/line_follower_launch/line_follower_launch.egg-info/top_level.txt
+[1.500s] reading manifest file '../../build/line_follower_launch/line_follower_launch.egg-info/SOURCES.txt'
+[1.502s] writing manifest file '../../build/line_follower_launch/line_follower_launch.egg-info/SOURCES.txt'
+[1.502s] running build
+[1.502s] running build_py
+[1.502s] copying line_follower_launch/__init__.py -> /home/soham/line_follower_ws/build/line_follower_launch/build/lib/line_follower_launch
+[1.503s] running install
+[1.510s] running install_lib
+[1.531s] running install_data
+[1.532s] copying resource/line_follower_launch -> /home/soham/line_follower_ws/install/line_follower_launch/share/ament_index/resource_index/packages
+[1.532s] copying package.xml -> /home/soham/line_follower_ws/install/line_follower_launch/share/line_follower_launch
+[1.532s] copying launch/spawn_robot_in_gazebo.launch.py -> /home/soham/line_follower_ws/install/line_follower_launch/share/line_follower_launch/launch
+[1.532s] running install_egg_info
+[1.558s] removing '/home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages/line_follower_launch-0.0.1-py3.10.egg-info' (and everything under it)
+[1.558s] Copying ../../build/line_follower_launch/line_follower_launch.egg-info to /home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages/line_follower_launch-0.0.1-py3.10.egg-info
+[1.559s] running install_scripts
+[1.728s] writing list of installed files to '/home/soham/line_follower_ws/build/line_follower_launch/install.log'
+[1.763s] Invoked command in '/home/soham/line_follower_ws/src/line_follower_launch' returned '0': PYTHONPATH=/home/soham/line_follower_ws/build/line_follower_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/line_follower_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower_launch build --build-base /home/soham/line_follower_ws/build/line_follower_launch/build install --record /home/soham/line_follower_ws/build/line_follower_launch/install.log --single-version-externally-managed install_data

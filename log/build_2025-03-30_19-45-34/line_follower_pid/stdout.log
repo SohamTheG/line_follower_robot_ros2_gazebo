@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/line_follower_pid/line_follower_pid.egg-info/PKG-INFO
+writing dependency_links to ../../build/line_follower_pid/line_follower_pid.egg-info/dependency_links.txt
+writing entry points to ../../build/line_follower_pid/line_follower_pid.egg-info/entry_points.txt
+writing requirements to ../../build/line_follower_pid/line_follower_pid.egg-info/requires.txt
+writing top-level names to ../../build/line_follower_pid/line_follower_pid.egg-info/top_level.txt
+reading manifest file '../../build/line_follower_pid/line_follower_pid.egg-info/SOURCES.txt'
+writing manifest file '../../build/line_follower_pid/line_follower_pid.egg-info/SOURCES.txt'
+running build
+running build_py
+copying line_follower_pid/__init__.py -> /home/soham/line_follower_ws/build/line_follower_pid/build/lib/line_follower_pid
+copying line_follower_pid/line_follower_pid.py -> /home/soham/line_follower_ws/build/line_follower_pid/build/lib/line_follower_pid
+running install
+running install_lib
+copying /home/soham/line_follower_ws/build/line_follower_pid/build/lib/line_follower_pid/line_follower_pid.py -> /home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid
+byte-compiling /home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid/line_follower_pid.py to line_follower_pid.cpython-310.pyc
+running install_data
+copying launch/line_follower_pid_launch.py -> /home/soham/line_follower_ws/install/line_follower_pid/share/line_follower_pid/launch
+running install_egg_info
+removing '/home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/line_follower_pid/line_follower_pid.egg-info to /home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid-0.0.1-py3.10.egg-info
+running install_scripts
+Installing line_follower script to /home/soham/line_follower_ws/install/line_follower_pid/lib/line_follower_pid
+writing list of installed files to '/home/soham/line_follower_ws/build/line_follower_pid/install.log'

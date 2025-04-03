@@ -1,0 +1,14 @@
+[1.018s] Invoking command in '/home/soham/line_follower_ws/src/ir_sensor_subscriber': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/ir_sensor_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_sensor_subscriber build --build-base /home/soham/line_follower_ws/build/ir_sensor_subscriber/build install --record /home/soham/line_follower_ws/build/ir_sensor_subscriber/install.log --single-version-externally-managed install_data
+[1.243s] running egg_info
+[1.246s] writing manifest file '../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info/SOURCES.txt'
+[1.246s] running build
+[1.246s] running build_py
+[1.246s] running install
+[1.246s] running install_lib
+[1.247s] running install_data
+[1.247s] running install_egg_info
+[1.249s] removing '/home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages/ir_sensor_subscriber-0.0.1-py3.10.egg-info' (and everything under it)
+[1.249s] Copying ../../build/ir_sensor_subscriber/ir_sensor_subscriber.egg-info to /home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages/ir_sensor_subscriber-0.0.1-py3.10.egg-info
+[1.249s] running install_scripts
+[1.266s] writing list of installed files to '/home/soham/line_follower_ws/build/ir_sensor_subscriber/install.log'
+[1.290s] Invoked command in '/home/soham/line_follower_ws/src/ir_sensor_subscriber' returned '0': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/ir_sensor_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/ir_sensor_subscriber/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_sensor_subscriber build --build-base /home/soham/line_follower_ws/build/ir_sensor_subscriber/build install --record /home/soham/line_follower_ws/build/ir_sensor_subscriber/install.log --single-version-externally-managed install_data

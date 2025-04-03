@@ -1,0 +1,4 @@
+[console_scripts]
+test_ppo = rl_pid_tuner.test_ppo:main
+train_ppo = rl_pid_tuner.train_ppo:main
+

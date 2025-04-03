@@ -1,0 +1,30 @@
+[0.713s] Invoking command in '/home/soham/line_follower_ws/src/line_follower_pid': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/line_follower_pid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower_pid build --build-base /home/soham/line_follower_ws/build/line_follower_pid/build install --record /home/soham/line_follower_ws/build/line_follower_pid/install.log --single-version-externally-managed install_data
+[0.819s] /home/soham/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.819s]   warnings.warn(msg)
+[0.886s] running egg_info
+[0.896s] creating ../../build/line_follower_pid/line_follower_pid.egg-info
+[0.897s] writing ../../build/line_follower_pid/line_follower_pid.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../../build/line_follower_pid/line_follower_pid.egg-info/dependency_links.txt
+[0.897s] writing requirements to ../../build/line_follower_pid/line_follower_pid.egg-info/requires.txt
+[0.897s] writing top-level names to ../../build/line_follower_pid/line_follower_pid.egg-info/top_level.txt
+[0.897s] writing manifest file '../../build/line_follower_pid/line_follower_pid.egg-info/SOURCES.txt'
+[0.919s] reading manifest file '../../build/line_follower_pid/line_follower_pid.egg-info/SOURCES.txt'
+[0.920s] writing manifest file '../../build/line_follower_pid/line_follower_pid.egg-info/SOURCES.txt'
+[0.920s] running build
+[0.920s] running build_py
+[0.921s] creating /home/soham/line_follower_ws/build/line_follower_pid/build/lib/line_follower_pid
+[0.921s] copying line_follower_pid/__init__.py -> /home/soham/line_follower_ws/build/line_follower_pid/build/lib/line_follower_pid
+[0.921s] running install
+[0.926s] running install_lib
+[0.937s] creating /home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid
+[0.937s] copying /home/soham/line_follower_ws/build/line_follower_pid/build/lib/line_follower_pid/__init__.py -> /home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid
+[0.937s] byte-compiling /home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid/__init__.py to __init__.cpython-310.pyc
+[0.937s] running install_data
+[0.938s] creating /home/soham/line_follower_ws/install/line_follower_pid/share/ament_index/resource_index/packages
+[0.938s] copying resource/line_follower_pid -> /home/soham/line_follower_ws/install/line_follower_pid/share/ament_index/resource_index/packages
+[0.938s] copying package.xml -> /home/soham/line_follower_ws/install/line_follower_pid/share/line_follower_pid
+[0.938s] running install_egg_info
+[0.949s] Copying ../../build/line_follower_pid/line_follower_pid.egg-info to /home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages/line_follower_pid-0.0.0-py3.10.egg-info
+[0.950s] running install_scripts
+[1.039s] writing list of installed files to '/home/soham/line_follower_ws/build/line_follower_pid/install.log'
+[1.064s] Invoked command in '/home/soham/line_follower_ws/src/line_follower_pid' returned '0': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/line_follower_pid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/line_follower_pid/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower_pid build --build-base /home/soham/line_follower_ws/build/line_follower_pid/build install --record /home/soham/line_follower_ws/build/line_follower_pid/install.log --single-version-externally-managed install_data

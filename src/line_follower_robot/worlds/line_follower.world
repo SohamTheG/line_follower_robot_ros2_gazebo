@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <world name="line_follower">
+
+            <!-- Gazebo ROS Plugins -->
+        <plugin name="gazebo_ros_init" filename="libgazebo_ros_init.so"/>
+<plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+<plugin name="gazebo_ros_api_plugin" filename="libgazebo_ros_api_plugin.so"/>
+<plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so"/>
+
+        <!-- Add light -->
+        <include>
+            <uri>model://sun</uri>
+            <name>sun_light</name>
+        </include>
+
+        <!-- High Reflectivity Ground Plane -->
+        <model name="high_reflective_plane">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                    <surface>
+                        <friction>
+                            <ode>
+                                <mu>5</mu>
+                                <mu2>1</mu2>
+                            </ode>
+                        </friction>
+                        <contact>
+                            <ode>
+                                <laser_retro>1.0</laser_retro> <!-- Max LiDAR Reflectivity -->
+                            </ode>
+                        </contact>
+                    </surface>
+                </collision>
+                <visual name="visual">
+                    <cast_shadows>false</cast_shadows>
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>1 1 1 1</ambient>     <!-- White Color -->
+                        <diffuse>1 1 1 1</diffuse>     <!-- Full Reflection -->
+                        <specular>1 1 1 1</specular>   <!-- High Specular Reflection -->
+                        <emissive>0 0 0 1</emissive>   <!-- No Glow -->
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- Add the line-following track -->
+        <include>
+            <uri>model://tinker</uri>
+            <name>line_following_track</name>
+            
+        </include>
+
+        <!-- Spawn the robot -->
+        <include>
+            <uri>model://my_robot</uri>
+            <name>line_follower_robot</name>
+            <pose>-7.84 -11.87 3 0 0 0</pose>
+        </include>
+
+    </world>
+</sdf>

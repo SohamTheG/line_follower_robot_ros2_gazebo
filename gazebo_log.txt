@@ -1,0 +1,32 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[1;33m[Wrn] [gazebo_ros_init.cpp:178] [0m[1;33m
+#     # ####### ####### ###  #####  #######
+##    # #     #    #     #  #     # #
+# #   # #     #    #     #  #       #
+#  #  # #     #    #     #  #       #####
+#   # # #     #    #     #  #       #
+#    ## #     #    #     #  #     # #
+#     # #######    #    ###  #####  #######
+
+This version of Gazebo, now called Gazebo classic, reaches end-of-life
+in January 2025. Users are highly encouraged to migrate to the new Gazebo
+using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration?utm_source=gazebo_ros_pkgs&utm_medium=cli)
+
+[0m[1;33m
+[0m[1;33m[0m[1;33m[0m[INFO] [1742912414.478248978] [ir_sensor_3_plugin]: missing <radiation_type>, defaulting to infrared
+[INFO] [1742912414.479572619] [ir_sensor_4_plugin]: missing <radiation_type>, defaulting to infrared
+[INFO] [1742912414.480714433] [ir_sensor_5_plugin]: missing <radiation_type>, defaulting to infrared
+[INFO] [1742912414.492804677] [differential_drive_controller]: Wheel pair 1 separation set to [2.970000m]
+[INFO] [1742912414.492840091] [differential_drive_controller]: Wheel pair 1 diameter set to [0.774000m]
+[INFO] [1742912414.493155202] [differential_drive_controller]: Subscribed to [/cmd_vel]
+[INFO] [1742912414.493847221] [differential_drive_controller]: Advertise odometry on [/odom]
+[INFO] [1742912414.494656169] [differential_drive_controller]: Publishing odom transforms between [odom] and [base_link]
+[1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11345[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m192.0.2.2[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/home/soham/line_follower_ws/install/line_follower_robot/share/line_follower_robot/worlds/line_follower.world[0m[1;32m][0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;33m[0m[1;36m[0m[1;31m[0m[1;32m[0m

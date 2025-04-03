@@ -1,0 +1,28 @@
+[0.850s] Invoking command in '/home/soham/line_follower_ws/src/rl_pid_tuner': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/rl_pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rl_pid_tuner build --build-base /home/soham/line_follower_ws/build/rl_pid_tuner/build install --record /home/soham/line_follower_ws/build/rl_pid_tuner/install.log --single-version-externally-managed install_data
+[1.023s] running egg_info
+[1.034s] writing ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/PKG-INFO
+[1.034s] writing dependency_links to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/dependency_links.txt
+[1.034s] writing entry points to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/entry_points.txt
+[1.035s] writing requirements to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/requires.txt
+[1.035s] writing top-level names to ../../build/rl_pid_tuner/rl_pid_tuner.egg-info/top_level.txt
+[1.058s] reading manifest file '../../build/rl_pid_tuner/rl_pid_tuner.egg-info/SOURCES.txt'
+[1.059s] writing manifest file '../../build/rl_pid_tuner/rl_pid_tuner.egg-info/SOURCES.txt'
+[1.059s] running build
+[1.059s] running build_py
+[1.059s] copying rl_pid_tuner/rl_env.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+[1.059s] copying rl_pid_tuner/__init__.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+[1.059s] copying rl_pid_tuner/train_ppo.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+[1.059s] copying rl_pid_tuner/test_ppo.py -> /home/soham/line_follower_ws/build/rl_pid_tuner/build/lib/rl_pid_tuner
+[1.059s] running install
+[1.063s] running install_lib
+[1.075s] running install_data
+[1.075s] copying resource/rl_pid_tuner -> /home/soham/line_follower_ws/install/rl_pid_tuner/share/ament_index/resource_index/packages
+[1.075s] copying package.xml -> /home/soham/line_follower_ws/install/rl_pid_tuner/share/rl_pid_tuner
+[1.075s] running install_egg_info
+[1.088s] removing '/home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info' (and everything under it)
+[1.088s] Copying ../../build/rl_pid_tuner/rl_pid_tuner.egg-info to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages/rl_pid_tuner-0.0.1-py3.10.egg-info
+[1.088s] running install_scripts
+[1.182s] Installing test_ppo script to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/rl_pid_tuner
+[1.182s] Installing train_ppo script to /home/soham/line_follower_ws/install/rl_pid_tuner/lib/rl_pid_tuner
+[1.182s] writing list of installed files to '/home/soham/line_follower_ws/build/rl_pid_tuner/install.log'
+[1.211s] Invoked command in '/home/soham/line_follower_ws/src/rl_pid_tuner' returned '0': PS1=(rl_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/soham/line_follower_ws/build/rl_pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soham/line_follower_ws/install/rl_pid_tuner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rl_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rl_pid_tuner build --build-base /home/soham/line_follower_ws/build/rl_pid_tuner/build install --record /home/soham/line_follower_ws/build/rl_pid_tuner/install.log --single-version-externally-managed install_data

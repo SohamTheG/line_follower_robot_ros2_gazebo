@@ -1,0 +1,4 @@
+source;share/line_follower_robot/local_setup.bash
+source;share/line_follower_robot/local_setup.dsv
+source;share/line_follower_robot/local_setup.sh
+source;share/line_follower_robot/local_setup.zsh
